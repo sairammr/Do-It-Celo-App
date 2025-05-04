@@ -1,0 +1,92 @@
+[
+  {
+    "module": "User Interface",
+    "submodules": [
+      {
+        "title": "Task List View",
+        "description": "A clean and organized display of all tasks, categorized by day. Users can easily navigate through their tasks, with options to filter by date or status, ensuring they can quickly find what they need.",
+        "selected": true
+      },
+      {
+        "title": "Task Creation Form",
+        "description": "An intuitive form that allows users to add new tasks with essential details such as title, description, due date, and priority level. The form includes validation to ensure all necessary information is provided before submission.",
+        "selected": true
+      },
+      {
+        "title": "Task Editing Interface",
+        "description": "A user-friendly interface that enables users to update existing tasks. Users can modify any aspect of a task, including its title, description, due date, and priority, with real-time feedback on changes.",
+        "selected": true
+      },
+      {
+        "title": "Task Deletion Confirmation",
+        "description": "A confirmation dialog that prompts users to confirm their intention to delete a task. This feature prevents accidental deletions and ensures users have a chance to reconsider before removing a task permanently.",
+        "selected": true
+      }
+    ]
+  },
+  {
+    "module": "Backend Services",
+    "submodules": [
+      {
+        "title": "Task Management API",
+        "description": "A robust RESTful API that handles all operations related to tasks, including creating, updating, retrieving, and deleting tasks. This API ensures data integrity and provides a seamless experience for the frontend.",
+        "selected": true
+      },
+      {
+        "title": "Database Management",
+        "description": "A well-structured database schema that stores task information, including user details, task attributes, and timestamps. This module ensures efficient data retrieval and storage, supporting the app's performance.",
+        "selected": true
+      },
+      {
+        "title": "User Authentication",
+        "description": "A secure authentication service that manages user registration, login, and session management. This module ensures that users can only access their own tasks, maintaining privacy and security.",
+        "selected": true
+      }
+    ]
+  },
+  {
+    "module": "Task Organization",
+    "submodules": [
+      {
+        "title": "Daily Task Grouping",
+        "description": "A feature that automatically groups tasks by their due dates, allowing users to view their tasks in a day-wise format. This organization helps users prioritize their workload effectively.",
+        "selected": true
+      },
+      {
+        "title": "Task Prioritization",
+        "description": "An option for users to assign priority levels to tasks (e.g., high, medium, low). This feature aids users in focusing on the most critical tasks first, enhancing productivity.",
+        "selected": true
+      }
+    ]
+  },
+  {
+    "module": "Notifications & Reminders",
+    "submodules": [
+      {
+        "title": "Task Reminders",
+        "description": "A notification system that alerts users about upcoming tasks based on their due dates. Users can customize reminder settings to receive notifications via email or in-app alerts.",
+        "selected": true
+      },
+      {
+        "title": "Daily Summary Notifications",
+        "description": "A feature that sends users a summary of their tasks for the day, helping them plan their schedule effectively. This summary includes tasks due today and any overdue tasks that need attention.",
+        "selected": true
+      }
+    ]
+  },
+  {
+    "module": "User Experience Enhancements",
+    "submodules": [
+      {
+        "title": "Dark Mode",
+        "description": "An optional dark mode that enhances user experience, especially in low-light environments. This feature allows users to switch between light and dark themes based on their preference.",
+        "selected": true
+      },
+      {
+        "title": "Search Functionality",
+        "description": "A powerful search feature that enables users to quickly find specific tasks by entering keywords. This functionality enhances usability, especially for users with a large number of tasks.",
+        "selected": true
+      }
+    ]
+  }
+]
